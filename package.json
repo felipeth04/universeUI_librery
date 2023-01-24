@@ -1,0 +1,37 @@
+{
+  "name": "universeui_librery",
+  "version": "0.0.1",
+  "description": "UniverseUI is a beatiful, fast and modern React UI librery.",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeth04/universeUI_librery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipeth04/universeUI_librery/issues"
+  },
+  "homepage": "https://github.com/felipeth04/universeUI_librery#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.20.12",
+    "@storybook/addon-actions": "6.5.15",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-interactions": "6.5.15",
+    "@storybook/addon-links": "6.5.15",
+    "@storybook/builder-webpack4": "6.5.15",
+    "@storybook/manager-webpack4": "6.5.15",
+    "@storybook/react": "^6.1.21",
+    "@storybook/testing-library": "0.0.13",
+    "babel-loader": "8.3.0"
+  }
+}
