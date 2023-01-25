@@ -6,7 +6,7 @@ import classNames from "classnames";
 
 export const Button = ({
     text = "hello world",
-    color = "Primary",
+    color = "primary",
     size = "s"
 }) => {
     return (
