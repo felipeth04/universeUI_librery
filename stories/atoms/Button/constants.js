@@ -1,4 +1,4 @@
 export const options = {
-    colors: ["Primary","Secondary","Success","Warning","Error","Gradient"],
-    sizes:["xs","s","m","l","xm","xl"]
+    colors: ["primary","secondary","success","warning","error","gradient"],
+    sizes:["xs","s","m","l"]
 }
