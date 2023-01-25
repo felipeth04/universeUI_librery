@@ -1,0 +1,11 @@
+:root {
+    /*COLORS*/
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-primary: blue;
+    --color-secondary: red;
+    --color-success: green;
+    --color-warning: orange;
+    --color-error: red;
+    --color-gradient: blue;
+}
