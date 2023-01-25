@@ -6,7 +6,9 @@ export default  {
     component: Button
 }
 
-export const Default = () => <Button/>
+const Template = (args) => <Button {...args}/>
+
+export const Default = () => Template.bind({})
 
 export const Colors = () =>
     options.colors.map((color,index) => {
