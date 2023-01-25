@@ -7,7 +7,7 @@
     text-align: center;
     border: 1px solid transparent;
     border-radius: 5px;
-    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .color-primary{
@@ -18,4 +18,18 @@
 .color-secondary{
     color: var(--color-white);
     background: var(--color-secondary);
+}
+
+.color-success{
+    color: var(--color-white);
+    background: var(--color-success);
+}
+
+.color-warning{
+    color: var(--color-white);
+    background: var(--color-warning);
+}
+.color-error{
+    color: var(--color-white);
+    background: var(--color-error);
 }
