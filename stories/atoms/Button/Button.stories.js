@@ -7,14 +7,16 @@ export default  {
 }
 
 const Template = (args) => <Button {...args}/>
+const listTemplate = ({items, ...args}) => items.map((item,index) => <Button key={index} {...args} {...item}/>)
 
 export const Default = () => Template.bind({})
 
-export const Colors = () =>
-    options.colors.map((color,index) => {
-        return <Button key={index} color={color} />
-})
+export const Colors = listTemplate.bind({})
+Colors.args = {
+    items: options.colors.map(color => ({color}))
+}
 
-export const Sizes = () => options.sizes.map((size,index) => {
-    return <Button key={index} size={size}/>
-})
+export const Sizes = listTemplate.bind({})
+Sizes.args = {
+    items: options.sizes.map(size => ({size}))
+}
