@@ -1,6 +1,8 @@
 import * as React from "react";
 import PropTypes from "prop-types"
 import {options} from "./constants"
+import "./Button.css"
+import classNames from "classnames";
 
 export const Button = ({
     text = "hello world",
@@ -8,7 +10,10 @@ export const Button = ({
     size = "s"
 }) => {
     return (
-        <button>
+        <button className={classNames("button",{
+            [`color-${color}`]: color,
+            [`size-${size}`]: size
+        })}>
             {text}
         </button>
     )
